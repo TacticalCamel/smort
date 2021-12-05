@@ -1,27 +1,23 @@
 INPUT NODES
-0: const 1
-1: x position
-2: y position
-3: age
-4: random
-5: forward direction
-6: nearest left/right border
-7: nearest up/down border
-8: population density nearby
-9: population density forward
-
-HIDDEN NODES:
-K-...
+    0: const 1
+    1: x position
+    2: y position
+    3: age
+    4: random
+    5: forward direction
+    6: nearest left/right border
+    7: nearest up/down border
+    8: population density nearby
+    9: population density forward
 
 OUTPUT NODES:
-A: stay
-B: move x+
-C: move x-
-D: move y+
-E: move y-
-F: move random
-G: move forward
-H: turn left
-I: turn right
-J: turn around
-
+    A: stay
+    B: move x+
+    C: move x-
+    D: move y+
+    E: move y-
+    F: move random
+    G: move forward
+    H: turn left
+    I: turn right
+    J: turn around

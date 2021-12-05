@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
 
-add_executable(smort main.cpp)
+add_executable(smort main.cpp neuralnet.h neuralnet.cpp)
 
 target_link_libraries(smort m)

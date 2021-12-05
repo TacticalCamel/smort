@@ -1,3 +1,4 @@
 _deps
-cmake-build-debug
-images
+cmake-build-release/
+cmake-build-debug/
+images/
